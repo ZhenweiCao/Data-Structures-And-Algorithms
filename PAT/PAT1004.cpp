@@ -3,6 +3,8 @@
 # include<vector>
 using namespace std;
 
+// 题目链接：https://pintia.cn/problem-sets/994805342720868352/problems/994805521431773184
+
 const int MAX = 100;
 typedef int ElemType;
 // 孩子节点
