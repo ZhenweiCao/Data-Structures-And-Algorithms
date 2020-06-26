@@ -32,10 +32,10 @@ int main(){
         for(int j = 0; j < child_num; j ++){
             int tmp;  // 孩子节点的编号
             cin >> tmp;
-            tree[node_id].push_back(tmp);  // 输入的根节点编号为1，因此放入vector时需减1
+            tree[node_id].push_back(tmp);  
         }
     }
-    dfs(0, 1);
+    dfs(0, 1);  // 根节点从1开始
     for(int i = 0; i <= max_level; i++){
         if(i == 0){
             cout << leaf_num[i];
